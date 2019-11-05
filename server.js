@@ -6,7 +6,7 @@ var cors = require('cors');
 
 var app = express();
 var admin = require('firebase-admin');
-var serviceAccount = require("./ztudy-cl-firebase-adminsdk.json");
+var serviceAccount = require("./conserje-cl-firebase-adminsdk.json");
 var uidNewUser
 
 app.use(logger('dev'));
@@ -77,13 +77,6 @@ app.post('/createuser', function (req, res) {
     phoneNumber: post.phoneNumber,
     password: post.password,
     disabled: post.disabled,
-    /*providerData: [{
-      uid: post.providerData.uid,//'a@a.cl',
-      displayName: post.providerData.displayName,
-      email: post.providerData.email,//'a@a.cl',
-      //photoURL: undefined,
-      providerId: post.providerData.providerId,
-    }]*/
   })
   .then(function(userRecord){
     userRecord.uid;
@@ -101,32 +94,6 @@ app.post('/createuser', function (req, res) {
     console.log('Error creating new user:', error);
   });
 });
-
-/*app.post('/sendemail', function(req, res){
-  const actionCodeSettings = {
-    // URL you want to redirect back to. The domain (www.example.com) for
-    // this URL must be whitelisted in the Firebase Console.
-    url: 'https://ztudy-cl.firebaseapp.com',
-    // This must be true for email link sign-in.
-    handleCodeInApp: true,
-    android: {
-      packageName: 'ztudy.app.io',
-      installApp: true,
-      minimumVersion: '12'
-    },
-    // FDL custom domain.
-    dynamicLinkDomain: 'coolapp.page.link'
-  };
-  var post=req.body;
-  console.log(post.email);
-  admin.auth().generateEmailVerificationLink(post.email, actionCodeSettings)
-  .then((response)=>{
-    return sendCustomVerificationEmail(post.email, displayName, response);
-  })
-  .catch((error) => {
-    console.log(error)
-  });
-})*/
 
 app.post('/contact', function (req, res) {
   var post=req.body;
@@ -184,7 +151,7 @@ app.post('/getpassword', function(req, res){
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
-    databaseURL: "https://ztudy-cl.firebaseio.com"
+    databaseURL: "https://conserje-cl.firebaseio.com"
   });
 
 //console.log('Iniciando en: http://localhost:8080');
