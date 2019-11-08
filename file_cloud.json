@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "conserje-cl",
+  "private_key_id": "490c7e10cb08b9a9df9550a235c4a426b219f9dd",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEugIBADANBgkqhkiG9w0BAQEFAASCBKQwggSgAgEAAoIBAQCsghe2LfkXOraa\nUfIJSZWiWyUhG7wJIGG82u3VzmnZf9o/FnMi6pt21UDh5MFEzfDQRTJFlzSbZEvI\nmSHtQthspD+tLU0wv+6/fnAdbiEevaqwCLYA13Ne84mX/Phs2FCC/Q6IeVfyByjq\n4a7Mfb/FkAcaYvBHKFsgLKqfVubTsb9HR3B7gwA97qVY2ZKsYoT1zTaW1Gd/Nskz\nKflVEbl7vLVgPIP0+9rbivB5SVBe1mX11AfSewE1AFyuNObixT1jI9FEDJ+41IuX\nh1f4Pi6OaZZsCHVNVTmQ5Vq/ZmxxYj+glhNFE/6rogzs7xlChNluArKO7BBkYBTN\nwxpfwYvvAgMBAAECggEAKKpOHqL9ug0cKIqyrJ/NB0XHHePk0p3wjE1rjWAoMZ5i\n+0Y2g/+cAEpLDjUXnjmRz/bP3/nB6/ObrcDzb3O3gvzBCfjI3noQNNIAad+hLRb2\n2qJjDRW826A7SjnW8gmYCRjQSTmZkrM/YQcsZoYqI89M7VpvW8bWnGILIp6gsTws\nkxypAF6Z95KV6PZGHdxqkalQIjq4S3FSbisCt3+O4qyuNTIa8Dtk+XgtTe3sVnws\nKf0RrAv4rnSOJIY8FI1q0f0FrVeo2TOBbnEj3ugj2Qzlmeph7+k8wHKuaYLF18fz\nzp9fR8TtP98erdZ7pBSBAz2FagEaB8WR7V+VbdtIGQKBgQDta8a/beRIQYCLhFQK\n2O4yFJXoZITzzjh+9StR6HBH86oUpeUGWNLRYcnSW0rSvf5mbTyuvXqR5ZDYkYpo\nmtRLWTSveS9amN+6UxwAiw8rbMPC3Eb3YevxJsyBV7pvOQhU4xuBCnp2RpwQcpx6\neMnXGSygw5ubCsc9dVsDUCR5OwKBgQC6Ae0YTe/xRJYLdE8xsIO+cEW97Ga1W7Gn\nIQ4ZiblhuCKFY2xqy/YLssV+/MhiFMN5E5132hDYIREnIfqaNMK9hQpDgfbm0tSk\nsW2bRBaXVhChSg9X3lWJRvXJvhWv/eB1/Ym36IFbHEFqgfWI9IN2dnc9zBFoD/rx\nxsZ2lWBs3QJ/P/3Mk8wKu27sNq5z+Hh/uv/RZ9GwBAaRM6bhBjKgEMScEvSjxhIq\nwESbIRd6E1MiPnky4eYwIyK856JSq98PWT+x85m2KbUKmC3OXlccv5eRK/QzLHo4\nHcdXV4VNuqykkjykLSOl3jsp1UUO5/Omc1NVs/8E8cT17pqy7TGsowKBgHNIQlQv\n6ahU49HRkkuvpNdg6jidzcJVRDPbLsvxKe5Am1SknEtMggAaGoFr1h3D1Kqz14Ky\nqoHpbKIeUx1D2fZwAD56zDWfMZ+pP89dUcsV0lTEe+HvsH/WdPtGTla3OGiobLSI\n67M2PezvAuiQ8vF21sx8L8WZMeSrV9GjHxIZAoGAZZvMNCSHCEQ5X6YoueKyfb4g\nnd1sR5XPm6i6gq03m2zpUakgaJ4kXhg3tY1Siu53ovsHfi1CgNsq4iU0BPClvPZ4\nYM/yj9yx8BSsOppXehYEMOxle6HaQRRjsRwY3WXSodBrkKIJv2/9cHH0ZhmFtt22\nxjd4iQkN465yAJloO10=\n-----END PRIVATE KEY-----\n",
+  "client_email": "conserje@conserje-cl.iam.gserviceaccount.com",
+  "client_id": "117902126397336687179",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/conserje%40conserje-cl.iam.gserviceaccount.com"
+}
