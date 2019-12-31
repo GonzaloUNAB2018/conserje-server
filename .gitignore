@@ -29,7 +29,7 @@ plugins/android.json
 plugins/ios.json
 www/
 $RECYCLE.BIN/
-conserje-cl-firebase-adminsdk.json
+app/conserje-cl-firebase-adminsdk.json
 
 .DS_Store
 Thumbs.db
